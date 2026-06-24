@@ -1,1 +1,1 @@
-# nextlead
+NextLead Portfólio - HTML, CSS e JS. Logos em PNG transparente e hero sem sobreposição do logo.

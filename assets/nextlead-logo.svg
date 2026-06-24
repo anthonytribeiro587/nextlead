@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 170" role="img" aria-labelledby="title desc">
+<title id="title">NextLead</title><desc id="desc">Páginas que convertem</desc>
+<defs>
+<linearGradient id="nl" x1="0" y1="170" x2="170" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#B026FF"/><stop offset=".45" stop-color="#4F46E5"/><stop offset="1" stop-color="#00CFFF"/>
+</linearGradient>
+<linearGradient id="lead" x1="340" y1="0" x2="650" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#7C4DFF"/><stop offset=".55" stop-color="#4F46E5"/><stop offset="1" stop-color="#00CFFF"/>
+</linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 0.25 0 0 0 0 0.35 0 0 0 0 1 0 0 0 .7 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#glow)">
+<path d="M28 136V34l46 30 63 64-28 25-51-53v57z" fill="url(#nl)"/>
+<path d="M60 37l49 30 52 56-24 24-63-64z" fill="url(#nl)" opacity=".95"/>
+<path d="M122 132V86c0-27 12-51 30-67l-22-8 56-8v60l-18-17c-9 11-14 25-14 42v64z" fill="url(#nl)"/>
+</g>
+<text x="220" y="92" font-size="74" font-weight="800" font-family="Poppins, Inter, Arial, sans-serif" fill="#fff" letter-spacing="-4">Next</text>
+<text x="396" y="92" font-size="74" font-weight="800" font-family="Poppins, Inter, Arial, sans-serif" fill="url(#lead)" letter-spacing="-4">Lead</text>
+<text x="224" y="137" font-size="20" font-family="Poppins, Inter, Arial, sans-serif" fill="#E5E7EB" letter-spacing="11">PÁGINAS QUE CONVERTEM.</text>
+</svg>
