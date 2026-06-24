@@ -8,7 +8,7 @@ body:before{content:"";position:fixed;inset:0;z-index:-3;background:radial-gradi
 body:after{content:"";position:fixed;inset:0;z-index:-2;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:70px 70px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.8),transparent 75%)}
 .cursor-glow{position:fixed;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(0,207,255,.14),transparent 64%);pointer-events:none;z-index:-1;transform:translate(-50%,-50%);opacity:.8}
 .topbar{width:min(1180px,calc(100% - 28px));height:74px;margin:16px auto 0;padding:0 10px 0 18px;display:flex;align-items:center;justify-content:space-between;gap:18px;position:sticky;top:12px;z-index:50;background:rgba(7,12,24,.72);border:1px solid var(--line);border-radius:999px;backdrop-filter:blur(18px);box-shadow:0 18px 46px rgba(0,0,0,.24)}
-.brand img{height:52px;width:auto}.nav{display:none;gap:26px;align-items:center;color:#dce5f8;font-size:14px;font-weight:700}.nav a{opacity:.82}.nav a:hover{opacity:1;color:#fff}.top-cta{display:none;padding:14px 22px;border-radius:999px;background:linear-gradient(135deg,var(--purple),var(--cyan));font-weight:800;box-shadow:0 14px 34px rgba(79,70,229,.32)}.menu-button{border:1px solid var(--line);background:#10182b;color:#fff;border-radius:999px;padding:12px 16px;font-weight:800}
+.brand img{height:44px;width:auto}.nav{display:none;gap:26px;align-items:center;color:#dce5f8;font-size:14px;font-weight:700}.nav a{opacity:.82}.nav a:hover{opacity:1;color:#fff}.top-cta{display:none;padding:14px 22px;border-radius:999px;background:linear-gradient(135deg,var(--purple),var(--cyan));font-weight:800;box-shadow:0 14px 34px rgba(79,70,229,.32)}.menu-button{border:1px solid var(--line);background:#10182b;color:#fff;border-radius:999px;padding:12px 16px;font-weight:800}
 .hero{width:min(1180px,calc(100% - 32px));margin:0 auto;padding:58px 0 50px;display:grid;gap:32px;align-items:center}.hero-copy{order:2}.hero-board{order:1}.eyebrow{margin:0 0 13px;color:#8fa2ff;font-size:12px;text-transform:uppercase;letter-spacing:.16em;font-weight:900}.hero h1,.section-heading h2,.process h2,.brand-section h2,.final-cta h2{margin:0;letter-spacing:-.055em;line-height:1.02;font-weight:900}.hero h1{font-size:38px;max-width:680px}.hero-subtitle{margin:18px 0 0;max-width:610px;color:var(--muted);font-size:16px;line-height:1.65}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{min-height:54px;padding:0 20px;border-radius:15px;display:inline-flex;align-items:center;justify-content:center;font-weight:900;border:1px solid var(--line)}.btn-primary{background:linear-gradient(135deg,var(--purple),var(--blue) 52%,var(--cyan));box-shadow:0 18px 42px rgba(79,70,229,.35)}.btn-primary:after{content:"→";margin-left:10px}.btn-secondary{background:rgba(255,255,255,.06);color:#fff}.trust-line{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;color:#d7e0f3;font-size:13px;font-weight:800}.trust-line span{padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.045)}
 .hero-board{position:relative;height:380px;border-radius:var(--radius);background:linear-gradient(135deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid var(--line);overflow:hidden;box-shadow:var(--shadow);isolation:isolate}.hero-board:before{content:"";position:absolute;inset:-20%;background:radial-gradient(circle at 22% 30%,rgba(124,77,255,.35),transparent 30%),radial-gradient(circle at 82% 72%,rgba(0,207,255,.23),transparent 28%);z-index:-1}.board-card{position:absolute;border-radius:18px;border:1px solid rgba(255,255,255,.14);overflow:hidden;background:#0b1220;box-shadow:0 22px 60px rgba(0,0,0,.38)}.board-card img{width:100%;height:100%;object-fit:cover;object-position:top}.main-shot{left:7%;top:52px;width:72%;height:210px}.floating.one{right:5%;top:25px;width:46%;height:140px}.floating.two{right:8%;bottom:35px;width:52%;height:145px}
 .metrics{width:min(1180px,calc(100% - 32px));margin:0 auto;display:grid;gap:12px}.metrics article{padding:20px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.045)}.metrics strong{display:block;font-size:26px;letter-spacing:-.04em}.metrics span{color:var(--muted);font-size:14px;font-weight:600}.projects,.services,.process,.brand-section,.final-cta{width:min(1180px,calc(100% - 32px));margin:78px auto 0}.section-heading{max-width:920px}.section-heading.compact{max-width:760px}.section-heading h2,.process h2,.brand-section h2,.final-cta h2{font-size:34px}.section-heading p:not(.eyebrow),.brand-section p{color:var(--muted);font-size:16px;line-height:1.65;max-width:760px}.case{margin-top:22px;display:grid;gap:0;overflow:hidden;border:1px solid var(--line);border-radius:30px;background:linear-gradient(135deg,rgba(255,255,255,.075),rgba(255,255,255,.035));box-shadow:var(--shadow)}.case figure{margin:0;min-height:240px;background:#0b1220;order:1}.case figure img{width:100%;height:100%;object-fit:cover;object-position:top}.case-copy{padding:26px;order:2}.case-copy span{display:inline-block;margin-bottom:10px;color:#9babff;text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:900}.case h3{margin:0;font-size:30px;letter-spacing:-.045em;line-height:1.02}.case p{color:var(--muted);line-height:1.6;font-size:15px}.case a{display:inline-flex;margin-top:8px;padding:13px 18px;border-radius:999px;background:#fff;color:#070b15;font-weight:900}.case.dark{background:linear-gradient(135deg,#060914,#121a2e)}.case.warm{background:linear-gradient(135deg,rgba(255,123,64,.14),rgba(255,255,255,.04))}.case.electric{background:linear-gradient(135deg,rgba(245,197,66,.16),rgba(255,255,255,.04))}.case.soft{background:linear-gradient(135deg,rgba(255,96,168,.14),rgba(255,255,255,.04))}
@@ -26,3 +26,129 @@ body.menu-open .nav{display:flex;position:fixed;left:18px;right:18px;top:92px;z-
 .hero-board{padding-bottom:0}
 @media(min-width:760px){.brand img{height:52px;max-width:280px}}
 @media(max-width:420px){.brand img{height:38px;max-width:205px}.topbar{padding-left:12px}}
+
+
+/* Ajuste final: logos PNG com fundo transparente e hero sem logo sobreposto */
+.brand{display:flex;align-items:center;min-width:0;background:transparent!important;border:0!important;box-shadow:none!important}
+.brand img{height:44px;max-width:230px;object-fit:contain;filter:drop-shadow(0 10px 22px rgba(0,207,255,.18));background:transparent!important;border:0!important;border-radius:0!important}
+.topbar{overflow:visible}
+.hero-board{padding-bottom:0}
+.board-card{background:#0b1220}
+.board-card img{object-fit:cover;object-position:top center}
+.prototype .case-copy span{color:#b7c3ff}
+.case.maintenance{background:linear-gradient(135deg,rgba(245,197,66,.15),rgba(16,185,129,.08),rgba(255,255,255,.035))}
+.case.clinic{background:linear-gradient(135deg,rgba(236,72,153,.14),rgba(124,77,255,.08),rgba(255,255,255,.035))}
+.brand-section img{background:transparent!important;border-radius:0!important;filter:drop-shadow(0 22px 60px rgba(0,207,255,.18));max-width:500px}
+@media(min-width:760px){.brand img{height:50px;max-width:260px}.hero-board{height:500px}.main-shot{left:6%;top:64px;width:76%;height:260px}.floating.one{right:5%;top:38px;width:47%;height:174px}.floating.two{right:7%;bottom:44px;width:54%;height:176px}}
+@media(max-width:520px){.brand img{height:36px;max-width:180px}.hero h1{font-size:34px}.hero-board{height:340px}.main-shot{left:5%;top:50px;width:78%;height:190px}.floating.one{right:5%;top:30px;width:52%;height:120px}.floating.two{right:6%;bottom:35px;width:58%;height:125px}}
+
+/* Versão somente com projetos reais */
+.hero-badge{position:absolute;right:7%;bottom:46px;padding:18px 20px;border-radius:20px;border:1px solid rgba(255,255,255,.16);background:rgba(8,15,29,.82);backdrop-filter:blur(16px);box-shadow:0 20px 55px rgba(0,0,0,.36)}
+.hero-badge span{display:block;margin-bottom:6px;color:#9babff;text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:900}.hero-badge strong{display:block;font-size:20px;letter-spacing:-.04em}.method-grid{display:grid;gap:12px}.method-grid article{padding:20px;border-radius:22px;border:1px solid var(--line);background:rgba(255,255,255,.055)}.method-grid span{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--purple),var(--cyan));font-weight:900}.method-grid strong{display:block;margin-top:14px;font-size:20px;letter-spacing:-.035em}.method-grid p{margin:8px 0 0;color:var(--muted);line-height:1.55;font-size:14px}.brand-section img{display:none!important}.projects .case{margin-top:26px}.projects .case + .case{margin-top:28px}@media(min-width:760px){.hero-badge{right:8%;bottom:62px}.floating.one{right:5%;top:auto;bottom:46px;width:50%;height:190px}.main-shot{left:5%;top:58px;width:78%;height:315px}.method-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:520px){.hero-badge{left:8%;right:auto;bottom:34px;padding:14px 16px}.hero-badge strong{font-size:17px}.floating.one{right:5%;top:auto;bottom:34px;width:52%;height:120px}.main-shot{left:5%;top:42px;width:78%;height:205px}.metrics strong{font-size:22px}}
+
+
+/* ===============================
+   Ajuste solicitado - 2 projetos reais
+   - Remove badge "Projetos publicados" do hero
+   - Reduz e organiza screenshots do hero
+   - Evita cortes agressivos nas imagens dos cases
+   =============================== */
+
+.hero-badge{
+  display:none !important;
+}
+
+.hero-board{
+  overflow:hidden;
+}
+
+.hero-board .board-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(6,10,20,.82);
+}
+
+.hero-board .board-card img{
+  width:100%;
+  height:100%;
+  object-fit:contain !important;
+  object-position:center !important;
+}
+
+@media(min-width:760px){
+  .hero-board{
+    height:500px;
+  }
+
+  .hero-board .main-shot{
+    left:6%;
+    top:66px;
+    width:72%;
+    height:285px;
+  }
+
+  .hero-board .floating.one{
+    right:6%;
+    bottom:66px;
+    top:auto;
+    width:38%;
+    height:165px;
+    z-index:3;
+  }
+}
+
+@media(max-width:759px){
+  .hero-board{
+    height:360px;
+  }
+
+  .hero-board .main-shot{
+    left:6%;
+    top:44px;
+    width:78%;
+    height:205px;
+  }
+
+  .hero-board .floating.one{
+    right:6%;
+    bottom:42px;
+    top:auto;
+    width:48%;
+    height:120px;
+    z-index:3;
+  }
+}
+
+/* Cards de portfólio: mostra a arte inteira, sem cortar o topo/laterais */
+.case figure{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,.08), transparent 45%),
+    #07101d;
+}
+
+.case figure img{
+  width:100%;
+  height:100%;
+  object-fit:contain !important;
+  object-position:center top !important;
+  border-radius:20px;
+}
+
+@media(min-width:760px){
+  .case figure{
+    min-height:430px;
+    padding:24px;
+  }
+}
+
+@media(max-width:520px){
+  .case figure{
+    min-height:260px;
+    padding:14px;
+  }
+}
