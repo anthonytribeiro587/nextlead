@@ -24,7 +24,7 @@
       <a href="#processo">Processo</a>
       <a href="#contato">Contato</a>
     </nav>
-    <a class="top-cta" href="https://wa.me/5551995092781?text=Olá,%20quero%20uma%20landing%20page%20com%20a%20NextLead" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    <a class="top-cta" href="#contato">Solicitar orçamento</a>
     <button class="menu-button" type="button" aria-label="Abrir menu">Menu</button>
   </header>
 
@@ -35,7 +35,7 @@
         <h1>Landing pages que transformam visitantes em oportunidades de negócio.</h1>
         <p class="hero-subtitle">Criamos páginas modernas, rápidas e estratégicas para prestadores de serviço que querem transmitir confiança, apresentar melhor seus serviços e receber mais contatos pelo WhatsApp.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://wa.me/5551995092781?text=Olá,%20vi%20o%20portfólio%20da%20NextLead%20e%20quero%20uma%20landing%20page" target="_blank" rel="noopener">Solicitar orçamento</a>
+          <a class="btn btn-primary" href="#contato">Solicitar orçamento</a>
           <a class="btn btn-secondary" href="#projetos">Ver projetos</a>
         </div>
         <div class="trust-line">
@@ -122,10 +122,55 @@
       </div>
     </section>
 
-    <section class="final-cta section-reveal" id="contato">
-      <p class="eyebrow">Vamos transformar seu serviço em uma página que vende</p>
-      <h2>Quer uma landing page com cara de empresa grande?</h2>
-      <a class="btn btn-primary" href="https://wa.me/5551995092781?text=Olá,%20quero%20criar%20minha%20landing%20page%20com%20a%20NextLead" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    <section class="final-cta contact-section section-reveal" id="contato">
+      <div class="contact-copy">
+        <p class="eyebrow">Vamos transformar seu serviço em uma página que vende</p>
+        <h2>Quer uma landing page com cara de empresa grande?</h2>
+        <p>Preencha os dados abaixo e seu contato entra direto no CRM da NextLead. Depois disso, você também pode seguir a conversa pelo WhatsApp.</p>
+        <div class="contact-points" aria-label="O que acontece depois do envio">
+          <span>✓ Lead entra no CRM</span>
+          <span>✓ Cai no funil comercial</span>
+          <span>✓ Atendimento pelo WhatsApp</span>
+        </div>
+      </div>
+
+      <form class="lead-form" id="leadForm">
+        <div class="form-row">
+          <label>
+            Nome
+            <input type="text" name="name" placeholder="Seu nome" required>
+          </label>
+          <label>
+            WhatsApp
+            <input type="tel" name="phone" placeholder="(51) 99999-9999" required>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            Empresa / negócio
+            <input type="text" name="company" placeholder="Nome da empresa">
+          </label>
+          <label>
+            Tipo de projeto
+            <select name="interest">
+              <option value="Orçamento de Landing Page">Landing Page</option>
+              <option value="Redesign de página existente">Redesign de página existente</option>
+              <option value="Página para captar leads">Página para captar leads</option>
+              <option value="Outro projeto digital">Outro projeto digital</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          Observação
+          <textarea name="notes" rows="4" placeholder="Conte rapidamente sobre o serviço, cidade ou objetivo da página."></textarea>
+        </label>
+
+        <button class="btn btn-primary form-submit" type="submit">Enviar para análise</button>
+        <a class="whatsapp-fallback" href="https://wa.me/5551995092781?text=Olá,%20quero%20criar%20minha%20landing%20page%20com%20a%20NextLead" target="_blank" rel="noopener">Prefiro chamar direto no WhatsApp</a>
+        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+      </form>
     </section>
   </main>
 

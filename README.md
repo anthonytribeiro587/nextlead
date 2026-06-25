@@ -1,14 +1,21 @@
-# NextLead Portfolio
+# NextLead - Landing integrada ao CRM
 
-Portfólio em HTML, CSS e JS.
+Esta versão mantém o visual da landing e adiciona um formulário conectado ao CRM NextLead.
 
-Alterações desta versão:
-- Removidos os protótipos fictícios.
-- Removidos LC Móveis e Segurança.
-- Mantidos apenas projetos reais/publicados.
-- Removido logo gigante da seção de identidade.
-- Header usando PNG transparente da NextLead.
-- Hero ajustado sem imagem sobreposta indevida.
+## Endpoint usado
 
+`https://nextlead-crm.vercel.app/api/leads`
 
-Versão ajustada: somente projetos reais, badge do hero removido e screenshots redimensionados para não cortar/ficar sobrepostos.
+## Fluxo
+
+Formulário da landing → CRM NextLead → Supabase → Funil comercial → redirecionamento opcional para WhatsApp.
+
+## Configuração opcional
+
+Se você ativar `NEXTLEAD_LEADS_API_KEY` no CRM, edite `script.js` e preencha:
+
+```js
+const NEXTLEAD_LEADS_API_KEY = 'SUA_CHAVE_AQUI';
+```
+
+Como você configurou `NEXTLEAD_ALLOWED_ORIGINS=*`, esta landing já consegue enviar os leads para a API.

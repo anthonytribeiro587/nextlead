@@ -152,3 +152,134 @@ body.menu-open .nav{display:flex;position:fixed;left:18px;right:18px;top:92px;z-
     padding:14px;
   }
 }
+
+/* ===============================
+   Integração CRM NextLead
+   Formulário de lead conectado ao /api/leads
+   =============================== */
+.contact-section{
+  text-align:left;
+  display:grid;
+  gap:24px;
+  align-items:start;
+}
+.contact-copy p:not(.eyebrow){
+  color:var(--muted);
+  line-height:1.65;
+  max-width:640px;
+}
+.contact-points{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:18px;
+}
+.contact-points span{
+  padding:9px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.055);
+  color:#dbe7ff;
+  font-size:13px;
+  font-weight:800;
+}
+.lead-form{
+  display:grid;
+  gap:14px;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:rgba(5,9,19,.62);
+  box-shadow:0 24px 60px rgba(0,0,0,.22);
+}
+.form-row{
+  display:grid;
+  gap:14px;
+}
+.lead-form label{
+  display:grid;
+  gap:8px;
+  color:#d7e1f7;
+  font-size:13px;
+  font-weight:900;
+}
+.lead-form input,
+.lead-form select,
+.lead-form textarea{
+  width:100%;
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:16px;
+  background:#10182b;
+  color:#fff;
+  outline:none;
+  font:inherit;
+  font-size:15px;
+  padding:15px 16px;
+  transition:border-color .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.lead-form textarea{
+  resize:vertical;
+  min-height:112px;
+}
+.lead-form input:focus,
+.lead-form select:focus,
+.lead-form textarea:focus{
+  border-color:rgba(0,207,255,.72);
+  box-shadow:0 0 0 4px rgba(0,207,255,.13);
+  background:#121d33;
+}
+.form-submit{
+  width:100%;
+  border:0;
+  cursor:pointer;
+  margin-top:4px;
+}
+.form-submit[disabled]{
+  opacity:.68;
+  cursor:not-allowed;
+}
+.whatsapp-fallback{
+  display:inline-flex;
+  justify-content:center;
+  color:#b9c8e6;
+  font-size:13px;
+  font-weight:800;
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
+.form-feedback{
+  margin:0;
+  min-height:22px;
+  color:#b9c8e6;
+  font-size:13px;
+  font-weight:800;
+}
+.form-feedback.success{color:#63e6be}
+.form-feedback.error{color:#ffb4b4}
+@media(min-width:760px){
+  .contact-section{
+    grid-template-columns:.9fr 1.1fr;
+    padding:46px;
+  }
+  .form-row{
+    grid-template-columns:repeat(2,1fr);
+  }
+  .lead-form{
+    padding:22px;
+  }
+}
+@media(max-width:520px){
+  .contact-section{
+    padding:28px 18px;
+  }
+  .lead-form{
+    padding:14px;
+    border-radius:20px;
+  }
+  .lead-form input,
+  .lead-form select,
+  .lead-form textarea{
+    font-size:14px;
+    padding:14px;
+  }
+}
